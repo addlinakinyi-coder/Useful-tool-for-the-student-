@@ -1,7 +1,7 @@
 # Useful-tool-for-the-student-
 
 ## 📝 Description
-This project is designed to help students to track there daily assignments and deadlines more effectively.
+This project is designed to help students to track their daily assignments and deadlines more effectively.
 
 ## ✨ Features
 * Feature 1: Easy to use interface.
@@ -10,4 +10,4 @@ This project is designed to help students to track there daily assignments and d
 
 ## 🚀 How to use
 1. Clone the repository.
-2. Run phyon `main.py` 
+2. Run python main.py` 
