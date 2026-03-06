@@ -1,0 +1,29 @@
+# Student Assignment Tracker
+
+assignments = []
+
+def add_assignment():
+    name = input("Enter assignment name: ")
+    deadline = input("Enter deadline (e.g., Monday 5pm): ")
+    assignments.append({"task": name, "date": deadline})
+    print("Assignment added successfully!")
+
+def show_assignments():
+    print("\n--- Your Current Assignments ---")
+    if not assignments:
+        print("No assignments yet! Nice work.")
+    for i, a in enumerate(assignments, 1):
+        print(f"{i}. {a['task']} - Due: {a['date']}")
+
+while True:
+    print("\n1. Add Assignment\n2. View Assignments\n3. Exit")
+    choice = input("Choose an option: ")
+    
+    if choice == '1':
+        add_assignment()
+    elif choice == '2':
+        show_assignments()
+    elif choice == '3':
+        break
+    else:
+        print("Invalid choice, try again.")
